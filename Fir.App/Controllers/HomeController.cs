@@ -1,5 +1,6 @@
 ﻿
 using Fir.App.Context;
+using Fir.App.ViewModels;
 using Fir.Core.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -19,9 +20,12 @@ namespace Fir.App.Controllers
 
 		public async Task<IActionResult> Index()
         {
-            IEnumerable<Category> categories = await _context.Categories.Where(c => !c.IsDeleted)
+            HomeVM homeVM=new HomeVM();
+           homeVM.categories = await _context.Categories.Where(c => !c.IsDeleted)
                 .ToListAsync();
-            return View(categories);
+            homeVM.blogs = await _context.Blogs.Where(c => !c.IsDeleted)
+               .ToListAsync();
+            return View(homeVM);
         }
 
 
