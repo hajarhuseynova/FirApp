@@ -1,0 +1,13 @@
+﻿@model Discount
+
+<div class="container">
+	<form method="post">
+		<div class="form-group">
+			<label for="percent" >Percent:</label>
+			<input type="text" class="form-control" asp-for="@Model.Percent"/>
+		<span class="text" asp-validation-for="@Model.Percent"></span>
+			@Html.AntiForgeryToken()
+		</div>
+	<button type="submit">Update</button>
+	</form>
+</div>

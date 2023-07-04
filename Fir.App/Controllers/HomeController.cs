@@ -25,6 +25,13 @@ namespace Fir.App.Controllers
                 .ToListAsync();
             homeVM.blogs = await _context.Blogs.Where(c => !c.IsDeleted)
                .ToListAsync();
+            homeVM.employees= await _context.Employees.Where(c => !c.IsDeleted).Include(x=>x.Position)
+               .ToListAsync();
+            homeVM.products= await _context.Products.
+                Where(x=>!x.IsDeleted).Include(x=>x.ProductImages).
+                Include(x=>x.Discount).
+                Include(x=>x.ProductCategories).ThenInclude(x=>x.Category).
+                ToListAsync();
             return View(homeVM);
         }
 

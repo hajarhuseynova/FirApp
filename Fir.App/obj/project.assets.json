@@ -2112,11 +2112,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\99455\\Desktop\\Fir.App\\Fir.App.csproj",
+      "projectUniqueName": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\Fir.App.csproj",
       "projectName": "Fir.App",
-      "projectPath": "C:\\Users\\99455\\Desktop\\Fir.App\\Fir.App.csproj",
+      "projectPath": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\Fir.App.csproj",
       "packagesPath": "C:\\Users\\99455\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\99455\\Desktop\\Fir.App\\obj\\",
+      "outputPath": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\99455\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2133,8 +2133,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\99455\\Desktop\\Fir.Core\\Fir.Core.csproj": {
-              "projectPath": "C:\\Users\\99455\\Desktop\\Fir.Core\\Fir.Core.csproj"
+            "C:\\Users\\99455\\Desktop\\FIR\\Fir.Core\\Fir.Core.csproj": {
+              "projectPath": "C:\\Users\\99455\\Desktop\\FIR\\Fir.Core\\Fir.Core.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AYfLwirEs6sNnNhFOsWNTd+XrDWt/K0c6WMZhZmJ1D/i138TJcmxBZ+XUugTt2FrxWlTh1tWGlyyMBb1W74jog==",
+  "dgSpecHash": "f1+3lUrTKxIIrKfNxHoUp5A5ymh6bIuZaomRa7EZ1mmkJWlUbGVDh+5RIQfiOIbbxrnLIq8fcQolX9XQfikq3A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\99455\\Desktop\\Fir.Core\\Fir.Core.csproj",
+  "projectFilePath": "C:\\Users\\99455\\Desktop\\FIR\\Fir.Core\\Fir.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\99455\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\99455\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.2\\microsoft.aspnetcore.http.2.2.2.nupkg.sha512",

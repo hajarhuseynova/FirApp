@@ -15,6 +15,7 @@ namespace Fir.Core.Entities
         public string FullName { get; set; }
         public string? Image { get; set; }
         public int PositionId { get; set; }
+        //public string Description { get; set; }
         public Position? Position { get; set; }
         [NotMapped]
         public IFormFile? FormFile { get; set; }

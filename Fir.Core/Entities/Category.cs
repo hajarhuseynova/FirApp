@@ -11,5 +11,6 @@ namespace Fir.Core.Entities
     {
         [Required]
         public string Name { get; set; }
+        public List<ProductCategory> ProductCategories { get; set; }
     }
 }
