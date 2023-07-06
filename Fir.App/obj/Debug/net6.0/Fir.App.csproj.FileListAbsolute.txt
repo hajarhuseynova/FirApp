@@ -128,3 +128,4 @@ C:\Users\99455\Desktop\FIR\Fir.App\obj\Debug\net6.0\refint\Fir.App.dll
 C:\Users\99455\Desktop\FIR\Fir.App\obj\Debug\net6.0\Fir.App.pdb
 C:\Users\99455\Desktop\FIR\Fir.App\obj\Debug\net6.0\Fir.App.genruntimeconfig.cache
 C:\Users\99455\Desktop\FIR\Fir.App\obj\Debug\net6.0\ref\Fir.App.dll
+C:\Users\99455\Desktop\FIR\Fir.App\bin\Debug\net6.0\Newtonsoft.Json.dll

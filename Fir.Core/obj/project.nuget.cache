@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "f1+3lUrTKxIIrKfNxHoUp5A5ymh6bIuZaomRa7EZ1mmkJWlUbGVDh+5RIQfiOIbbxrnLIq8fcQolX9XQfikq3A==",
+  "dgSpecHash": "uwmnCS55YKLRI+CFhx10NtNa3hwbbHZlyRbOWePcDH+qs7qKXVdsbhWLvw1Md0TEwOmEIWo92yI7W/pVMtm9fg==",
   "success": true,
   "projectFilePath": "C:\\Users\\99455\\Desktop\\FIR\\Fir.Core\\Fir.Core.csproj",
   "expectedPackageFiles": [
@@ -39,6 +39,7 @@
     "C:\\Users\\99455\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\99455\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\99455\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\99455\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\99455\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\99455\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\99455\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",

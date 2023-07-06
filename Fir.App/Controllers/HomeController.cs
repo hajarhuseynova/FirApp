@@ -20,6 +20,7 @@ namespace Fir.App.Controllers
 
 		public async Task<IActionResult> Index()
         {
+            //ViewBag.Color = Request.Cookies["color"];
             HomeVM homeVM=new HomeVM();
            homeVM.categories = await _context.Categories.Where(c => !c.IsDeleted)
                 .ToListAsync();
@@ -35,6 +36,20 @@ namespace Fir.App.Controllers
             return View(homeVM);
         }
 
+        //public async Task<IActionResult> ChangeColor(string color)
+        //{
+        //    var colorcookies= Request.Cookies["color"];
+        //    if (string.IsNullOrEmpty(colorcookies))
+        //    {
+        //        Response.Cookies.Append("color", color);
+        //    }
+        //    else
+        //    {
+        //        Response.Cookies.Delete("color");
+        //        Response.Cookies.Append("color",color);
+        //    }
+        //    return RedirectToAction("index", "home");
+        //}
 
     }
 }
