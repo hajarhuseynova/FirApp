@@ -11,7 +11,6 @@ namespace Fir.App.Services.Implementations
     {
         private readonly FirDbContext _context;
         private readonly IHttpContextAccessor _httpContext;
-
         public BasketService(FirDbContext context, IHttpContextAccessor httpContext)
         {
             _context = context;
@@ -59,7 +58,6 @@ namespace Fir.App.Services.Implementations
                 _httpContext?.HttpContext?.Response.Cookies.Append("basket", CookieJson);
             }
         }
-
         public async Task<List<BasketItemViewModel>> GetAllBaskets()
         {
             var jsonBasket = _httpContext?.HttpContext?.Request.Cookies["basket"];
@@ -95,8 +93,6 @@ namespace Fir.App.Services.Implementations
             }
             return new List<BasketItemViewModel>();
         }
-
-
         public async Task Remove(int id)
         {
             var basketJson = _httpContext?.HttpContext?
