@@ -1,6 +1,8 @@
 using Fir.App.Context;
 using Fir.App.Services.Implementations;
 using Fir.App.Services.Interfaces;
+using Fir.Core.Entities;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -17,6 +19,18 @@ builder.Services.AddHttpContextAccessor();
 
 builder.Services.AddScoped<IBasketService, BasketService>();
 
+builder.Services.AddIdentity<AppUser, IdentityRole>()
+    .AddEntityFrameworkStores<FirDbContext>();
+
+builder.Services.Configure<IdentityOptions>(options =>
+{
+    options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
+    options.Lockout.MaxFailedAccessAttempts = 3;
+    options.Lockout.AllowedForNewUsers = true;
+    options.Password.RequireDigit = true;
+    options.Password.RequiredLength = 8;
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -32,7 +46,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.UseEndpoints(endpoints =>

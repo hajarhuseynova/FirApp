@@ -129,3 +129,8 @@ C:\Users\99455\Desktop\FIR\Fir.App\obj\Debug\net6.0\Fir.App.pdb
 C:\Users\99455\Desktop\FIR\Fir.App\obj\Debug\net6.0\Fir.App.genruntimeconfig.cache
 C:\Users\99455\Desktop\FIR\Fir.App\obj\Debug\net6.0\ref\Fir.App.dll
 C:\Users\99455\Desktop\FIR\Fir.App\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\99455\Desktop\FIR\Fir.App\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\99455\Desktop\FIR\Fir.App\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\99455\Desktop\FIR\Fir.App\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\99455\Desktop\FIR\Fir.App\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\99455\Desktop\FIR\Fir.App\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll

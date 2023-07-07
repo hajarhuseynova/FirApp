@@ -85,7 +85,8 @@ namespace Fir.App.Services.Implementations
                             Count = item.Count,
                             Image = product.ProductImages.FirstOrDefault(x => x.isMain).Image,
                             Name = product.Name,
-                            Price = product.Discount == null ? product.Price : (product.Price-(product.Price*((decimal)product.Discount.Percent/100)))
+                            Price = product.Discount == null ? product.Price :
+                            (product.Price-(product.Price*((decimal)product.Discount.Percent/100)))
                         });
 
                     }
