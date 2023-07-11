@@ -2,17 +2,24 @@
 @model HomeVM
 @{
     ViewData["Title"] = "Home Page";
-        //string color = TempData["color"] as string;
+    //string color = TempData["color"] as string;
     //string color = ViewBag.Color;
 }
 
 @*
-<style>
-   body{
-        background-color:@(string.IsNullOrWhiteSpace(color)?"white":color) !important;
+    <style>
+    body{
+    background-color:@(string.IsNullOrWhiteSpace(color)?"white":color) !important;
     }
-</style>
+    </style>
 *@
+
+@if (!string.IsNullOrWhiteSpace((string)TempData["register"]))
+{
+<div id="alert-message" style="display:none"
+>@TempData["register"]</div>
+    
+}
   <section id="introduce" class="col-lg-12 col-sm-12 col-12">
             <div class="images">
 
@@ -319,3 +326,19 @@
                 </div>
             </div>
         </section>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script>
+            const alert=document.getElementById("alert-message");
+            if(alert!=undefined){
+            const message= alert.innerHTML;
+            if(message!=""){
+                Swal.fire({
+  icon: 'error',
+  title: 'Oops...',
+  text: `${message}`,
+  footer: '<a href="">Why do I have this issue?</a>'
+})
+
+            }
+            }
+        </script>

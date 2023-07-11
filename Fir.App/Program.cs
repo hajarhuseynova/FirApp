@@ -1,35 +1,17 @@
 using Fir.App.Context;
+using Fir.App.ServiceRegistrations;
 using Fir.App.Services.Implementations;
 using Fir.App.Services.Interfaces;
 using Fir.Core.Entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
-builder.Services.AddDbContext<FirDbContext>(opt =>
-{
-    opt.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
-});
 builder.Services.AddHttpContextAccessor();
-
-builder.Services.AddScoped<IBasketService, BasketService>();
-
-builder.Services.AddIdentity<AppUser, IdentityRole>()
-    .AddEntityFrameworkStores<FirDbContext>();
-
-builder.Services.Configure<IdentityOptions>(options =>
-{
-    options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
-    options.Lockout.MaxFailedAccessAttempts = 3;
-    options.Lockout.AllowedForNewUsers = true;
-    options.Password.RequireDigit = true;
-    options.Password.RequiredLength = 8;
-});
+builder.Services.Register(builder.Configuration);
 
 var app = builder.Build();
 
@@ -40,7 +22,6 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
-
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

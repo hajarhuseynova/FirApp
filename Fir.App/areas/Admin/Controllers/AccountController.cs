@@ -1,5 +1,6 @@
 ﻿using Fir.App.ViewModels;
 using Fir.Core.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,6 +12,7 @@ namespace Fir.App.areas.Admin.Controllers
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signinManager;
+        
 
         public AccountController(RoleManager<IdentityRole> roleManager, UserManager<AppUser> userManager, SignInManager<AppUser> signinManager)
         {
@@ -18,7 +20,7 @@ namespace Fir.App.areas.Admin.Controllers
             _userManager = userManager;
             _signinManager = signinManager;
         }
-
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> AdminCreate()
         {
             AppUser SuperAdmin = new AppUser
@@ -49,14 +51,14 @@ namespace Fir.App.areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(LoginViewModel loginViewModel)
         {
-         
-            AppUser appUser =await _userManager.FindByNameAsync(loginViewModel.UserName);
-            if(appUser == null)
+
+            AppUser appUser = await _userManager.FindByNameAsync(loginViewModel.UserName);
+            if (appUser == null)
             {
                 ModelState.AddModelError("", "username or password is incorret");
                 return View();
             }
-          var result=  await _signinManager.PasswordSignInAsync(appUser,loginViewModel.Password,loginViewModel.isRememberMe,true);
+            var result = await _signinManager.PasswordSignInAsync(appUser, loginViewModel.Password, loginViewModel.isRememberMe, true);
             if (!result.Succeeded)
             {
                 if (result.IsLockedOut)
@@ -70,13 +72,15 @@ namespace Fir.App.areas.Admin.Controllers
             return RedirectToAction("index", "home");
 
         }
+        [Authorize(Roles = "Admin,SuperAdmin")]
         public async Task<IActionResult> Logout()
         {
-            await _signinManager.SignOutAsync();    
+            await _signinManager.SignOutAsync();
 
             return RedirectToAction("index", "home");
         }
+      
 
-     
+
     }
 }

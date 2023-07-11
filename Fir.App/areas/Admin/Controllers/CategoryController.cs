@@ -1,11 +1,15 @@
 ﻿using Fir.App.Context;
 using Fir.Core.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
+
 using Microsoft.EntityFrameworkCore;
 
 namespace Fir.App.areas.Admin.Controllersb
 {
     [Area("Admin")]
+
+    [Authorize(Roles = "Admin,SuperAdmin")]
     public class CategoryController : Controller
     {
 

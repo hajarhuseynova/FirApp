@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dm6jg8DlLKDIpO1tQN5rsEoRKp/ziaj0tg5PWSP4HF8=",
+  "Hash": "3JYam31BaKU8Q+WuM4VlX31u5m4vj5En4Il01AulyJw=",
   "Source": "Fir.App",
   "BasePath": "_content/Fir.App",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Fir.App\\wwwroot",
       "Source": "Fir.App",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Fir.App.styles.css",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Fir.App.styles.css",
       "SourceId": "Fir.App",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Fir.App.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Fir.App.styles.css"
+      "OriginalItemSpec": "C:\\Users\\99455\\FirApp\\Fir.App\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Fir.App.styles.css"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Fir.App.bundle.scp.css",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Fir.App.bundle.scp.css",
       "SourceId": "Fir.App",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Fir.App.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Fir.App.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\99455\\FirApp\\Fir.App\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Fir.App.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\css\\maps\\style.css.map",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\css\\maps\\style.css.map",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/css/maps/style.css.map",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\css\\maps\\style.css.map"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\css\\style.css",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\css\\style.css",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/css/style.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\.DS_Store",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\.DS_Store",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/fonts/.DS_Store",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\fonts\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\.DS_Store",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\.DS_Store",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/fonts/Roboto/.DS_Store",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\fonts\\Roboto\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Black.eot",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Black.eot",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/fonts/Roboto/Roboto-Black.eot",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Black.eot"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Black.ttf",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Black.ttf",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/fonts/Roboto/Roboto-Black.ttf",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Black.ttf"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Black.woff",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Black.woff",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/fonts/Roboto/Roboto-Black.woff",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Black.woff"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Black.woff2",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Black.woff2",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/fonts/Roboto/Roboto-Black.woff2",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Black.woff2"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Bold.eot",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Bold.eot",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/fonts/Roboto/Roboto-Bold.eot",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Bold.eot"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Bold.ttf",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Bold.ttf",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/fonts/Roboto/Roboto-Bold.ttf",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Bold.ttf"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Bold.woff",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Bold.woff",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/fonts/Roboto/Roboto-Bold.woff",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Bold.woff"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Bold.woff2",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Bold.woff2",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/fonts/Roboto/Roboto-Bold.woff2",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Bold.woff2"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Light.eot",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Light.eot",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/fonts/Roboto/Roboto-Light.eot",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Light.eot"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Light.ttf",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Light.ttf",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/fonts/Roboto/Roboto-Light.ttf",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Light.ttf"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Light.woff",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Light.woff",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/fonts/Roboto/Roboto-Light.woff",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Light.woff"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Light.woff2",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Light.woff2",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/fonts/Roboto/Roboto-Light.woff2",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Light.woff2"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Medium.eot",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Medium.eot",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/fonts/Roboto/Roboto-Medium.eot",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Medium.eot"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Medium.ttf",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Medium.ttf",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/fonts/Roboto/Roboto-Medium.ttf",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Medium.ttf"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Medium.woff",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Medium.woff",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/fonts/Roboto/Roboto-Medium.woff",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Medium.woff"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Medium.woff2",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Medium.woff2",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/fonts/Roboto/Roboto-Medium.woff2",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Medium.woff2"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Regular.eot",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Regular.eot",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/fonts/Roboto/Roboto-Regular.eot",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Regular.eot"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Regular.ttf",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Regular.ttf",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/fonts/Roboto/Roboto-Regular.ttf",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Regular.ttf"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Regular.woff",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Regular.woff",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/fonts/Roboto/Roboto-Regular.woff",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Regular.woff"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Regular.woff2",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Regular.woff2",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/fonts/Roboto/Roboto-Regular.woff2",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\fonts\\Roboto\\Roboto-Regular.woff2"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\.DS_Store",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\.DS_Store",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/.DS_Store",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\auth\\.DS_Store",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\auth\\.DS_Store",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/auth/.DS_Store",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\auth\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\auth\\lockscreen-bg.jpg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\auth\\lockscreen-bg.jpg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/auth/lockscreen-bg.jpg",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\auth\\lockscreen-bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\auth\\login-bg.jpg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\auth\\login-bg.jpg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/auth/login-bg.jpg",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\auth\\login-bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\auth\\register-bg.jpg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\auth\\register-bg.jpg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/auth/register-bg.jpg",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\auth\\register-bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\.DS_Store",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\.DS_Store",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/faces/.DS_Store",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\faces\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face1.jpg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face1.jpg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/faces/face1.jpg",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\faces\\face1.jpg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face10.jpg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face10.jpg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/faces/face10.jpg",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\faces\\face10.jpg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face11.jpg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face11.jpg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/faces/face11.jpg",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\faces\\face11.jpg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face12.jpg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face12.jpg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/faces/face12.jpg",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\faces\\face12.jpg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face13.jpg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face13.jpg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/faces/face13.jpg",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\faces\\face13.jpg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face14.jpg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face14.jpg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/faces/face14.jpg",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\faces\\face14.jpg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face15.jpg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face15.jpg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/faces/face15.jpg",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\faces\\face15.jpg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face16.jpg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face16.jpg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/faces/face16.jpg",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\faces\\face16.jpg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face17.jpg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face17.jpg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/faces/face17.jpg",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\faces\\face17.jpg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face18.jpg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face18.jpg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/faces/face18.jpg",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\faces\\face18.jpg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face19.jpg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face19.jpg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/faces/face19.jpg",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\faces\\face19.jpg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face2.jpg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face2.jpg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/faces/face2.jpg",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\faces\\face2.jpg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face20.jpg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face20.jpg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/faces/face20.jpg",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\faces\\face20.jpg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face21.jpg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face21.jpg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/faces/face21.jpg",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\faces\\face21.jpg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face22.jpg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face22.jpg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/faces/face22.jpg",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\faces\\face22.jpg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face23.jpg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face23.jpg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/faces/face23.jpg",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\faces\\face23.jpg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face24.jpg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face24.jpg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/faces/face24.jpg",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\faces\\face24.jpg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face25.jpg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face25.jpg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/faces/face25.jpg",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\faces\\face25.jpg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face26.jpg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face26.jpg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/faces/face26.jpg",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\faces\\face26.jpg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face27.jpg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face27.jpg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/faces/face27.jpg",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\faces\\face27.jpg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face3.jpg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face3.jpg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/faces/face3.jpg",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\faces\\face3.jpg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face4.jpg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face4.jpg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/faces/face4.jpg",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\faces\\face4.jpg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face5.jpg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face5.jpg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/faces/face5.jpg",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\faces\\face5.jpg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face6.jpg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face6.jpg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/faces/face6.jpg",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\faces\\face6.jpg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face7.jpg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face7.jpg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/faces/face7.jpg",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\faces\\face7.jpg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face8.jpg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face8.jpg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/faces/face8.jpg",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\faces\\face8.jpg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face9.jpg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\faces\\face9.jpg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/faces/face9.jpg",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\faces\\face9.jpg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\favicon.ico",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\favicon.ico",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/favicon.ico",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\favicon.png",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\favicon.png",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/favicon.png",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\logo.svg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\logo.svg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/logo.svg",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\logo.svg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\images\\logo-mini.svg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\images\\logo-mini.svg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/images/logo-mini.svg",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\images\\logo-mini.svg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\js\\.DS_Store",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\js\\.DS_Store",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/js/.DS_Store",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\js\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\js\\chart.js",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\js\\chart.js",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/js/chart.js",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\js\\chart.js"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\js\\Chart.min.js",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\js\\Chart.min.js",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/js/Chart.min.js",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\js\\Chart.min.js"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\js\\dashboard.js",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\js\\dashboard.js",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/js/dashboard.js",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\js\\dashboard.js"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\js\\data-table.js",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\js\\data-table.js",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/js/data-table.js",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\js\\data-table.js"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\js\\dataTables.bootstrap4.js",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\js\\dataTables.bootstrap4.js",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/js/dataTables.bootstrap4.js",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\js\\dataTables.bootstrap4.js"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\js\\documentation.js",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\js\\documentation.js",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/js/documentation.js",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\js\\documentation.js"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\js\\file-upload.js",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\js\\file-upload.js",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/js/file-upload.js",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\js\\file-upload.js"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\js\\hoverable-collapse.js",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\js\\hoverable-collapse.js",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/js/hoverable-collapse.js",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\js\\hoverable-collapse.js"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\js\\jquery.cookie.js",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\js\\jquery.cookie.js",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/js/jquery.cookie.js",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\js\\jquery.cookie.js"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\js\\jquery.dataTables.js",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\js\\jquery.dataTables.js",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/js/jquery.dataTables.js",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\js\\jquery.dataTables.js"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\js\\off-canvas.js",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\js\\off-canvas.js",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/js/off-canvas.js",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\js\\off-canvas.js"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\js\\tabs.js",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\js\\tabs.js",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/js/tabs.js",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\js\\tabs.js"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\js\\template.js",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\js\\template.js",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/js/template.js",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\js\\template.js"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\pages\\.DS_Store",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\pages\\.DS_Store",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/pages/.DS_Store",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\pages\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\pages\\charts\\.DS_Store",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\pages\\charts\\.DS_Store",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/pages/charts/.DS_Store",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\pages\\charts\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\pages\\charts\\chartjs.html",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\pages\\charts\\chartjs.html",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/pages/charts/chartjs.html",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\pages\\charts\\chartjs.html"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\pages\\forms\\.DS_Store",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\pages\\forms\\.DS_Store",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/pages/forms/.DS_Store",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\pages\\forms\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\pages\\forms\\basic_elements.html",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\pages\\forms\\basic_elements.html",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/pages/forms/basic_elements.html",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\pages\\forms\\basic_elements.html"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\pages\\icons\\.DS_Store",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\pages\\icons\\.DS_Store",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/pages/icons/.DS_Store",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\pages\\icons\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\pages\\icons\\mdi.html",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\pages\\icons\\mdi.html",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/pages/icons/mdi.html",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\pages\\icons\\mdi.html"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\pages\\samples\\.DS_Store",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\pages\\samples\\.DS_Store",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/pages/samples/.DS_Store",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\pages\\samples\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\pages\\samples\\lock-screen.html",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\pages\\samples\\lock-screen.html",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/pages/samples/lock-screen.html",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\pages\\samples\\lock-screen.html"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\pages\\samples\\login.html",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\pages\\samples\\login.html",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/pages/samples/login.html",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\pages\\samples\\login.html"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\pages\\samples\\login-2.html",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\pages\\samples\\login-2.html",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/pages/samples/login-2.html",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\pages\\samples\\login-2.html"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\pages\\samples\\register.html",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\pages\\samples\\register.html",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/pages/samples/register.html",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\pages\\samples\\register.html"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\pages\\samples\\register-2.html",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\pages\\samples\\register-2.html",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/pages/samples/register-2.html",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\pages\\samples\\register-2.html"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\pages\\tables\\.DS_Store",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\pages\\tables\\.DS_Store",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/pages/tables/.DS_Store",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\pages\\tables\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\pages\\tables\\basic-table.html",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\pages\\tables\\basic-table.html",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/pages/tables/basic-table.html",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\pages\\tables\\basic-table.html"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\pages\\ui-features\\.DS_Store",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\pages\\ui-features\\.DS_Store",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/pages/ui-features/.DS_Store",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\pages\\ui-features\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\pages\\ui-features\\buttons.html",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\pages\\ui-features\\buttons.html",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/pages/ui-features/buttons.html",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\pages\\ui-features\\buttons.html"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\pages\\ui-features\\typography.html",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\pages\\ui-features\\typography.html",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/pages/ui-features/typography.html",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\pages\\ui-features\\typography.html"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\vendors\\.DS_Store",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\vendors\\.DS_Store",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/vendors/.DS_Store",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\vendors\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\vendors\\base\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\vendors\\base\\bootstrap.min.js.map",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/vendors/base/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\vendors\\base\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\vendors\\base\\vendor.bundle.base.css",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\vendors\\base\\vendor.bundle.base.css",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/vendors/base/vendor.bundle.base.css",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\vendors\\base\\vendor.bundle.base.css"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\vendors\\base\\vendor.bundle.base.js",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\vendors\\base\\vendor.bundle.base.js",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/vendors/base/vendor.bundle.base.js",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\vendors\\base\\vendor.bundle.base.js"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\vendors\\chart.js\\Chart.min.js",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\vendors\\chart.js\\Chart.min.js",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/vendors/chart.js/Chart.min.js",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\vendors\\chart.js\\Chart.min.js"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\vendors\\datatables.net\\jquery.dataTables.js",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\vendors\\datatables.net\\jquery.dataTables.js",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/vendors/datatables.net/jquery.dataTables.js",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\vendors\\datatables.net\\jquery.dataTables.js"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.css",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.css",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/vendors/datatables.net-bs4/dataTables.bootstrap4.css",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.css"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.js",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.js",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/vendors/datatables.net-bs4/dataTables.bootstrap4.js",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.js"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/vendors/mdi/css/materialdesignicons.min.css",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css.map",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css.map",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/vendors/mdi/css/materialdesignicons.min.css.map",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/vendors/mdi/fonts/materialdesignicons-webfont.eot",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/vendors/mdi/fonts/materialdesignicons-webfont.ttf",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/vendors/mdi/fonts/materialdesignicons-webfont.woff",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\Admin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\Admin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "Admin/assets/vendors/mdi/fonts/materialdesignicons-webfont.woff2",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\.DS_Store",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\.DS_Store",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/.DS_Store",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\images\\.DS_Store",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\images\\.DS_Store",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/images/.DS_Store",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\images\\0335ae62-8033-4b58-a3ed-522b2812a047Screenshot (1).png",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\images\\0335ae62-8033-4b58-a3ed-522b2812a047Screenshot (1).png",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/images/0335ae62-8033-4b58-a3ed-522b2812a047Screenshot (1).png",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\0335ae62-8033-4b58-a3ed-522b2812a047Screenshot (1).png"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\images\\06cc69cb-eeb7-4ebe-ab82-9dd7e42b328eScreenshot (2).png",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\images\\06cc69cb-eeb7-4ebe-ab82-9dd7e42b328eScreenshot (2).png",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/images/06cc69cb-eeb7-4ebe-ab82-9dd7e42b328eScreenshot (2).png",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\06cc69cb-eeb7-4ebe-ab82-9dd7e42b328eScreenshot (2).png"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\images\\10555f0f-b0c8-4da9-8d60-2ae355f61724Screenshot (29).png",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\images\\10555f0f-b0c8-4da9-8d60-2ae355f61724Screenshot (29).png",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/images/10555f0f-b0c8-4da9-8d60-2ae355f61724Screenshot (29).png",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\10555f0f-b0c8-4da9-8d60-2ae355f61724Screenshot (29).png"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\images\\2f1ef194-bacb-4fcb-b0fe-946920631afbScreenshot (5).png",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\images\\2f1ef194-bacb-4fcb-b0fe-946920631afbScreenshot (5).png",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/images/2f1ef194-bacb-4fcb-b0fe-946920631afbScreenshot (5).png",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\2f1ef194-bacb-4fcb-b0fe-946920631afbScreenshot (5).png"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\images\\39ba1412-5e8e-4be7-9c74-12d7d516bc97Screenshot (20).png",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\images\\39ba1412-5e8e-4be7-9c74-12d7d516bc97Screenshot (20).png",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/images/39ba1412-5e8e-4be7-9c74-12d7d516bc97Screenshot (20).png",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\39ba1412-5e8e-4be7-9c74-12d7d516bc97Screenshot (20).png"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\images\\3af37ec5-2e50-4ae6-b242-ff726cf85fe1Screenshot (1).png",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\images\\3af37ec5-2e50-4ae6-b242-ff726cf85fe1Screenshot (1).png",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/images/3af37ec5-2e50-4ae6-b242-ff726cf85fe1Screenshot (1).png",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\3af37ec5-2e50-4ae6-b242-ff726cf85fe1Screenshot (1).png"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\images\\3bb0ee0a-0d61-4ebf-9b57-76898ea150e6Screenshot (1).png",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\images\\3bb0ee0a-0d61-4ebf-9b57-76898ea150e6Screenshot (1).png",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/images/3bb0ee0a-0d61-4ebf-9b57-76898ea150e6Screenshot (1).png",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\3bb0ee0a-0d61-4ebf-9b57-76898ea150e6Screenshot (1).png"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\images\\466a03c7-c95c-42af-8ff5-4054eb21aa22Screenshot (3).png",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\images\\466a03c7-c95c-42af-8ff5-4054eb21aa22Screenshot (3).png",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/images/466a03c7-c95c-42af-8ff5-4054eb21aa22Screenshot (3).png",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\466a03c7-c95c-42af-8ff5-4054eb21aa22Screenshot (3).png"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\images\\5b1bda1d-4041-4953-a78a-55efdfbf4ab1Screenshot (4).png",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\images\\5b1bda1d-4041-4953-a78a-55efdfbf4ab1Screenshot (4).png",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/images/5b1bda1d-4041-4953-a78a-55efdfbf4ab1Screenshot (4).png",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\5b1bda1d-4041-4953-a78a-55efdfbf4ab1Screenshot (4).png"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\images\\6076f403-3b83-493e-94d2-7b3b2df8f871Screenshot (18).png",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\images\\6076f403-3b83-493e-94d2-7b3b2df8f871Screenshot (18).png",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/images/6076f403-3b83-493e-94d2-7b3b2df8f871Screenshot (18).png",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\6076f403-3b83-493e-94d2-7b3b2df8f871Screenshot (18).png"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\images\\6a5937ce-797a-4941-98be-781bae8f95f0Screenshot (37).png",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\images\\6a5937ce-797a-4941-98be-781bae8f95f0Screenshot (37).png",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/images/6a5937ce-797a-4941-98be-781bae8f95f0Screenshot (37).png",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\6a5937ce-797a-4941-98be-781bae8f95f0Screenshot (37).png"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\images\\916ac4d3-d9e2-458c-b576-704a7886f25aScreenshot (34).png",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\images\\916ac4d3-d9e2-458c-b576-704a7886f25aScreenshot (34).png",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/images/916ac4d3-d9e2-458c-b576-704a7886f25aScreenshot (34).png",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\916ac4d3-d9e2-458c-b576-704a7886f25aScreenshot (34).png"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\images\\961c5502-0343-4943-abd9-60495c0d7c1eScreenshot (5).png",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\images\\961c5502-0343-4943-abd9-60495c0d7c1eScreenshot (5).png",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/images/961c5502-0343-4943-abd9-60495c0d7c1eScreenshot (5).png",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\961c5502-0343-4943-abd9-60495c0d7c1eScreenshot (5).png"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\images\\a88b36e4-228f-430e-8be2-ae0e93a76a54Screenshot (10).png",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\images\\a88b36e4-228f-430e-8be2-ae0e93a76a54Screenshot (10).png",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/images/a88b36e4-228f-430e-8be2-ae0e93a76a54Screenshot (10).png",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\a88b36e4-228f-430e-8be2-ae0e93a76a54Screenshot (10).png"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\images\\b35ed802-7287-4674-a4cb-3c7cd90bace5Screenshot (37).png",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\images\\b35ed802-7287-4674-a4cb-3c7cd90bace5Screenshot (37).png",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/images/b35ed802-7287-4674-a4cb-3c7cd90bace5Screenshot (37).png",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\b35ed802-7287-4674-a4cb-3c7cd90bace5Screenshot (37).png"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\images\\caa759cb-d2b2-4548-90d4-42f8ab061c12Screenshot 2023-03-05 090251.png",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\images\\caa759cb-d2b2-4548-90d4-42f8ab061c12Screenshot 2023-03-05 090251.png",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/images/caa759cb-d2b2-4548-90d4-42f8ab061c12Screenshot 2023-03-05 090251.png",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\caa759cb-d2b2-4548-90d4-42f8ab061c12Screenshot 2023-03-05 090251.png"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\images\\ce5db5e4-1420-47cd-8e45-ce5a286cfe45Screenshot (31).png",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\images\\ce5db5e4-1420-47cd-8e45-ce5a286cfe45Screenshot (31).png",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/images/ce5db5e4-1420-47cd-8e45-ce5a286cfe45Screenshot (31).png",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\ce5db5e4-1420-47cd-8e45-ce5a286cfe45Screenshot (31).png"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\images\\da0bd6a4-44a1-4946-a37d-d1115f47cf6eScreenshot (2).png",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\images\\da0bd6a4-44a1-4946-a37d-d1115f47cf6eScreenshot (2).png",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/images/da0bd6a4-44a1-4946-a37d-d1115f47cf6eScreenshot (2).png",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\da0bd6a4-44a1-4946-a37d-d1115f47cf6eScreenshot (2).png"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\images\\dd59d862-7194-4beb-8150-65c1ae84fc71Screenshot (30).png",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\images\\dd59d862-7194-4beb-8150-65c1ae84fc71Screenshot (30).png",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/images/dd59d862-7194-4beb-8150-65c1ae84fc71Screenshot (30).png",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\dd59d862-7194-4beb-8150-65c1ae84fc71Screenshot (30).png"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\images\\e3ce0ee2-7430-4f9f-b9a5-555b7d919fc6Screenshot (1).png",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\images\\e3ce0ee2-7430-4f9f-b9a5-555b7d919fc6Screenshot (1).png",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/images/e3ce0ee2-7430-4f9f-b9a5-555b7d919fc6Screenshot (1).png",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\e3ce0ee2-7430-4f9f-b9a5-555b7d919fc6Screenshot (1).png"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\images\\fa7555da-e124-4b1c-9e90-af6c16801becScreenshot (2).png",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\images\\fa7555da-e124-4b1c-9e90-af6c16801becScreenshot (2).png",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/images/fa7555da-e124-4b1c-9e90-af6c16801becScreenshot (2).png",
       "AssetKind": "All",
@@ -2261,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\fa7555da-e124-4b1c-9e90-af6c16801becScreenshot (2).png"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\images\\h3-slider-background.jpeg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\images\\h3-slider-background.jpeg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/images/h3-slider-background.jpeg",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\h3-slider-background.jpeg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\images\\h3-slider-background-2.jpeg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\images\\h3-slider-background-2.jpeg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/images/h3-slider-background-2.jpeg",
       "AssetKind": "All",
@@ -2295,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\h3-slider-background-2.jpeg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\images\\h3-slider-background-3.jpeg",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\images\\h3-slider-background-3.jpeg",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/images/h3-slider-background-3.jpeg",
       "AssetKind": "All",
@@ -2312,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\h3-slider-background-3.jpeg"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\js\\.DS_Store",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\js\\.DS_Store",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/js/.DS_Store",
       "AssetKind": "All",
@@ -2329,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\js\\accordions.js",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\js\\accordions.js",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/js/accordions.js",
       "AssetKind": "All",
@@ -2346,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\accordions.js"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\js\\homepage.js",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\js\\homepage.js",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/js/homepage.js",
       "AssetKind": "All",
@@ -2363,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\homepage.js"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\js\\main.js",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\js\\main.js",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/js/main.js",
       "AssetKind": "All",
@@ -2380,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\main.js"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\js\\orangeamarylls.js",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\js\\orangeamarylls.js",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/js/orangeamarylls.js",
       "AssetKind": "All",
@@ -2397,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\orangeamarylls.js"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\js\\owl.carousel.min.js",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\js\\owl.carousel.min.js",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/js/owl.carousel.min.js",
       "AssetKind": "All",
@@ -2414,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\owl.carousel.min.js"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\js\\parallax.min.js",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\js\\parallax.min.js",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/js/parallax.min.js",
       "AssetKind": "All",
@@ -2431,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\parallax.min.js"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\js\\progressbar.js",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\js\\progressbar.js",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/js/progressbar.js",
       "AssetKind": "All",
@@ -2448,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\progressbar.js"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\js\\shoplist.js",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\js\\shoplist.js",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/js/shoplist.js",
       "AssetKind": "All",
@@ -2465,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\shoplist.js"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\js\\tabs.js",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\js\\tabs.js",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/js/tabs.js",
       "AssetKind": "All",
@@ -2482,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\tabs.js"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\scss\\.DS_Store",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\scss\\.DS_Store",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/scss/.DS_Store",
       "AssetKind": "All",
@@ -2499,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\scss\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\scss\\owl.carousel.min.css",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\scss\\owl.carousel.min.css",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/scss/owl.carousel.min.css",
       "AssetKind": "All",
@@ -2516,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\scss\\owl.carousel.min.css"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\scss\\owl.theme.default.min.css",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\scss\\owl.theme.default.min.css",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/scss/owl.theme.default.min.css",
       "AssetKind": "All",
@@ -2533,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\scss\\owl.theme.default.min.css"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\scss\\style.css",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\scss\\style.css",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/scss/style.css",
       "AssetKind": "All",
@@ -2550,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\scss\\style.css"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\scss\\style.css.map",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\scss\\style.css.map",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/scss/style.css.map",
       "AssetKind": "All",
@@ -2567,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\scss\\style.css.map"
     },
     {
-      "Identity": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\assets\\scss\\style.scss",
+      "Identity": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\assets\\scss\\style.scss",
       "SourceId": "Fir.App",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99455\\Desktop\\FIR\\Fir.App\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\99455\\FirApp\\Fir.App\\wwwroot\\",
       "BasePath": "_content/Fir.App",
       "RelativePath": "assets/scss/style.scss",
       "AssetKind": "All",

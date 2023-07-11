@@ -1,8 +1,11 @@
-﻿using Fir.App.ViewModels;
+﻿using Fir.App.Services.Interfaces;
+using Fir.App.ViewModels;
 using Fir.Core.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.Net;
+using System.Net.Mail;
 
 namespace Fir.App.Controllers
 {
@@ -11,12 +14,14 @@ namespace Fir.App.Controllers
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signinManager;
+        private readonly IMailService _mailService;
 
-        public AccountController(RoleManager<IdentityRole> roleManager, UserManager<AppUser> userManager, SignInManager<AppUser> signinManager)
+        public AccountController(RoleManager<IdentityRole> roleManager, UserManager<AppUser> userManager, SignInManager<AppUser> signinManager, IMailService mailService)
         {
             _roleManager = roleManager;
             _userManager = userManager;
             _signinManager = signinManager;
+            _mailService = mailService;
         }
         public async Task<IActionResult> Register()
         {
@@ -34,6 +39,7 @@ namespace Fir.App.Controllers
             appUser.Name = registerViewModel.Name;
             appUser.Surname = registerViewModel.Surname;    
             appUser.UserName = registerViewModel.UserName;
+            //appUser.EmailConfirmed = true;
            IdentityResult identityResult= await _userManager.CreateAsync(appUser,registerViewModel.Password);
             if (!identityResult.Succeeded)
             {
@@ -44,7 +50,30 @@ namespace Fir.App.Controllers
                 return View(registerViewModel);
             }
             await _userManager.AddToRoleAsync(appUser, "User");
+
+            string token = await _userManager.GenerateEmailConfirmationTokenAsync(appUser);
+
+            var link = Url.Action(action: "VerifyEmail", controller: "account",
+              values: new { token = token, email = appUser.Email },
+              protocol: Request.Scheme);
+
+            await _mailService.Send("hajarih@code.edu.az", appUser.Email, link, "Verify email");
+          
+            TempData["register"] = "Please,verify your email";
             return RedirectToAction("index","home");
+        }
+
+        public async Task<IActionResult> VerifyEmail(string token,string email)
+        {
+            var user= await _userManager.FindByEmailAsync(email);
+            if (user == null)
+            {
+                NotFound();
+            }
+            await _userManager.ConfirmEmailAsync(user,token);
+            await _signinManager.SignInAsync(user, true);
+            return RedirectToAction(nameof(Info));
+
         }
         public async Task<IActionResult> Login()
         {
@@ -81,7 +110,6 @@ namespace Fir.App.Controllers
 
             return RedirectToAction("index", "home");
         }
-
         public async Task<IActionResult> Info()
         {
             string UserName=User.Identity.Name;
@@ -89,6 +117,128 @@ namespace Fir.App.Controllers
 
             return View(appUser);
         }
+        [Authorize]
+        public async Task<IActionResult> Update()
+        {
+            var user = await _userManager.FindByNameAsync(User.Identity.Name);
+            if (user == null)
+            {
+                return NotFound();
+            }
+            UserUpdateViewModel userUpdateView = new UserUpdateViewModel
+            {
+                Name = user.UserName,
+                Surname = user.Surname,
+                Email = user.Email,
+                UserName = user.UserName
+            };
+            return View(userUpdateView);
+        }
+        [Authorize]
+        [HttpPost]
+        public async Task<IActionResult> Update(UserUpdateViewModel model)
+        {
+            var user = await _userManager.FindByNameAsync(User.Identity.Name);
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+            if (user == null)
+            {
+                return NotFound();
+            }
+            user.Name = model.UserName;
+            user.Surname = model.Surname;
+            user.UserName = model.UserName;
+            user.Email = model.Email;
+            var result = await _userManager.UpdateAsync(user);
+
+            if (!result.Succeeded)
+            {
+                foreach (var error in result.Errors)
+                {
+                    ModelState.AddModelError("", error.Description);
+                }
+                return View(model);
+            }
+            if (!string.IsNullOrWhiteSpace(model.NewPassword))
+            {
+                result = await _userManager.ChangePasswordAsync(user, model.CurrentPassword, model.NewPassword);
+                if (!result.Succeeded)
+                {
+                    foreach (var error in result.Errors)
+                    {
+                        ModelState.AddModelError("", error.Description);
+                    }
+                    return View(model);
+                }
+            }
+            await _signinManager.SignInAsync(user,true);
+            TempData["Updateuser"] = "ok";
+            return RedirectToAction(nameof(Info));
+        }
+        [HttpGet]
+        public async Task<IActionResult> ForgetPassword()
+        {
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> ForgetPassword(string? email)
+        {
+            var user = await _userManager.FindByEmailAsync(email);
+            if (user == null)
+            {
+                return NotFound();
+            }
+            string token = await _userManager.GeneratePasswordResetTokenAsync(user);
+
+            UriBuilder uriBuilder = new UriBuilder();
+
+            var link = Url.Action(action: "resetpassword", controller: "account",
+                values: new { token = token, email = email },
+                protocol: Request.Scheme);
+
+            await _mailService.Send("hajarih@code.edu.az", user.Email, link, "Reset password");
+            return RedirectToAction("index","home");
+        }
+        [HttpGet]
+        public async Task<IActionResult> ResetPassword(string token,string email)
+        {
+            var user = await _userManager.FindByEmailAsync(email);
+            if (user == null)
+            {
+                return NotFound();
+            }
+            ResetPasswordViewModel resetPasswordViewModel = new ResetPasswordViewModel
+            {
+                Token = token,
+                Email = email
+            };
+            return View(resetPasswordViewModel);
+        }
+        [HttpPost]
+        public async Task<IActionResult> ResetPassword(ResetPasswordViewModel resetPassword)
+        {
+            var user = await _userManager.FindByEmailAsync(resetPassword.Email);
+            if (user == null)
+            {
+                return NotFound();
+            }
+           var result= await _userManager.ResetPasswordAsync(user, resetPassword.Token, resetPassword.Password);
+            if (!result.Succeeded)
+            {
+                return Json(result.Errors);
+            }
+            return RedirectToAction("login", "account");
+          
+        }
+   
+
+
+
+
+
+
         //public async Task<IActionResult> CreateRole()
         //{
         //    IdentityRole identityRole1= new IdentityRole { Name="SuperAdmin"};

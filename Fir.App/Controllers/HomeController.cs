@@ -2,8 +2,10 @@
 using Fir.App.Context;
 using Fir.App.ViewModels;
 using Fir.Core.Entities;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 using System.Diagnostics;
 
 namespace Fir.App.Controllers
@@ -12,14 +14,57 @@ namespace Fir.App.Controllers
     {
 
         private readonly FirDbContext _context;
+        private readonly UserManager<AppUser> _userManager;
 
-		public HomeController(FirDbContext context)
-		{
-			_context = context;
-		}
-
-		public async Task<IActionResult> Index()
+        public HomeController(FirDbContext context, UserManager<AppUser> userManager)
         {
+            _context = context;
+            _userManager = userManager;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            if (User.Identity.IsAuthenticated)
+            {
+                var jsonBasket = Request.Cookies["basket"];
+                if(jsonBasket != null)
+                {
+                    AppUser appUser=await _userManager.FindByNameAsync(User.Identity.Name);
+                    Basket? basket = await _context.Baskets.
+                     Where(x => !x.IsDeleted&& x.AppUserId==appUser.Id)
+                    .FirstOrDefaultAsync();
+
+
+                    if (basket == null)
+                    {
+                         basket = new Basket
+                        {
+                            CreatedDate = DateTime.Now,
+                            AppUser = appUser
+                        };
+                    await _context.Baskets.AddAsync(basket);
+                    }
+
+
+                    List<BasketViewModel> viewModels= JsonConvert.DeserializeObject<List<BasketViewModel>>(jsonBasket);
+                    foreach(var model in viewModels)
+                    {
+                        BasketItem basketItem = new BasketItem
+                        {
+                            Basket = basket,
+                            CreatedDate = DateTime.Now,
+                            ProductCount=model.Count,
+                            ProductId=model.ProductId
+                        };
+                        await _context.BasketItems.AddAsync(basketItem);
+                    }
+                    await _context.SaveChangesAsync();
+                    Response.Cookies.Delete("basket");
+
+                }
+            }
+
+
             //ViewBag.Color = Request.Cookies["color"];
             HomeVM homeVM=new HomeVM();
            homeVM.categories = await _context.Categories.Where(c => !c.IsDeleted)

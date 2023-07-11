@@ -3,11 +3,14 @@ using Fir.App.Extentions;
 using Fir.App.Helpers;
 using Fir.Core.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
+
 using Microsoft.EntityFrameworkCore;
 
 namespace Fir.App.areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin,SuperAdmin")]
     public class EmployeeController : Controller
     {
         private readonly FirDbContext _context;

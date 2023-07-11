@@ -1,11 +1,14 @@
 ﻿using Fir.App.Context;
 using Fir.Core.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
+
 using Microsoft.EntityFrameworkCore;
 
 namespace Fir.App.areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin,SuperAdmin")]
     public class PositionController : Controller
     {
         private readonly FirDbContext _context;
