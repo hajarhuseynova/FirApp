@@ -121,45 +121,7 @@
                         </div>
                     </div>
 
-                    @foreach (var item in Model.products)
-                    {
-                        
-                    
-                    <a style="color: #6D6A8F;text-decoration:none" asp-controller="product" asp-action="addbasket" asp-route-id="@item.Id" data-aos-offset="100"
-                   class="product col-lg-3 col-md-6
-
-                             @foreach (var cat in item.ProductCategories )
-                                  {
-                                     @cat.Category.Name
-                                      } all">
-                        <div class="productImage">
-                            <img src="~/assets/images/@item.ProductImages.FirstOrDefault(x=>x.isMain).Image"
-                                alt="">
-
-                        </div>
-                        <div class="productTitle">
-                            <p>@item.Name</p>
-                        </div>
-                        <div class="productPrice">
-                        @if (item.Discount != null)
-                        {
-                             <span class="addToCardBtn" data-id="5">Add to cart</span> <span style="text-decoration: line-through;">@item.Price</span>
-                            <span>$</span><span>@(item.Price-(item.Price*((decimal)item.Discount.Percent/100)))</span>
-                  
-                           
-                        }
-                        else
-                        {
-                             <span class="addToCardBtn" data-id="1">Add to cart</span><span>$</span><span>@item.Price</span>
-                        }
-                  
-                           
-                    </div>
-                        <div class="addToCart">
-
-                        </div>
-                    </a>
-                    }
+             @await Html.PartialAsync("_ProductPartialView",Model.products)
 
                    
 

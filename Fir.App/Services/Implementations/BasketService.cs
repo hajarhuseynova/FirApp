@@ -29,7 +29,7 @@ namespace Fir.App.Services.Implementations
             {
                 AppUser appUser = await _userManager.FindByNameAsync(_httpContext.HttpContext.User.Identity.Name);
                 Basket? basket = await _context.Baskets.
-                  Include(x => x.basketItems.Where(y=>!y.IsDeleted))
+                  Include(x => x.basketItems.Where(y=>!y.IsDeleted)).ThenInclude(x=>x.Product)
                   .Where(x => !x.IsDeleted && x.AppUser.Id == appUser.Id).FirstOrDefaultAsync();
                 if (basket == null)
                 {
@@ -115,9 +115,14 @@ namespace Fir.App.Services.Implementations
             if(_httpContext.HttpContext.User.Identity.IsAuthenticated)
             {
                 AppUser appUser = await _userManager.FindByNameAsync(_httpContext.HttpContext.User.Identity.Name);
-                Basket? basket= await _context.Baskets.
-                    Include(x => x.basketItems.Where(y => !y.IsDeleted))
-                    .Where(x=>!x.IsDeleted&&x.AppUser.Id==appUser.Id).FirstOrDefaultAsync();
+              
+                Basket? basket = await _context.Baskets.Include(x => x.basketItems.Where(y => !y.IsDeleted))
+                          .ThenInclude(x => x.Product)
+                           .ThenInclude(x => x.ProductImages)
+                           .Include(x => x.basketItems)
+                           .ThenInclude(x => x.Product)
+                           .ThenInclude(x => x.Discount)
+                             .Where(x => !x.IsDeleted && x.AppUserId == appUser.Id).FirstOrDefaultAsync();
 
 
                 if (basket != null)
@@ -127,6 +132,7 @@ namespace Fir.App.Services.Implementations
                     {
                         basketItemViewModels.Add(new BasketItemViewModel
                         {
+                            ProductId=item.ProductId,
                             Image = item.Product.ProductImages.FirstOrDefault(x => x.isMain).Image,
                             Count = item.ProductCount,
                             Name = item.Product.Name,

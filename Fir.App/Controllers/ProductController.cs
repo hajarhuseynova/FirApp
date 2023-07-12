@@ -37,6 +37,10 @@ namespace Fir.App.Controllers
                       .Where(x => x.Id == id && !x.IsDeleted).FirstOrDefaultAsync(),
                 Products = await _context.Products
                        .Include(x => x.ProductImages.Where(x => !x.IsDeleted)).Take(4)
+                         .Include(x => x.ProductTags)
+                        .ThenInclude(x => x.Tag)
+                        .Include(x => x.ProductCategories)
+                        .ThenInclude(x => x.Category)
                         .Where(x => !x.IsDeleted).ToListAsync()
             };
 
@@ -46,7 +50,7 @@ namespace Fir.App.Controllers
         public async Task<IActionResult> AddBasket(int id)
         {
             await _basketService.AddBasket(id);
-            return RedirectToAction("index","home");
+            return Json(await _basketService.GetAllBaskets());
         }
 
         public async Task<IActionResult> RemoveBasket(int id)

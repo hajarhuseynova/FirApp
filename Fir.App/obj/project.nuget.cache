@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LAxT9Y3r5Ke8DFaP7AiTP33sj2La2rMq3d3D64L9IjdWm2Kjpa5mrTCivjmovopxQyAevJuLJ4yfV7vUOvYCig==",
+  "dgSpecHash": "Y237eQ5u6bHSyxFZahmtAvyaOxy0U/UVEldaK/X0HvRKTlpjK1YN44Pm82EqvgP32w2QAeak+sw6CaKnu1nUCg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\99455\\FirApp\\Fir.App\\Fir.App.csproj",
+  "projectFilePath": "C:\\Users\\99455\\Desktop\\FirApp\\Fir.App\\Fir.App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\99455\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\99455\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
