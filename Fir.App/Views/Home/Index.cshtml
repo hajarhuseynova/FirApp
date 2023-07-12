@@ -14,12 +14,28 @@
     </style>
 *@
 
+
 @if (!string.IsNullOrWhiteSpace((string)TempData["register"]))
 {
 <div id="alert-message" style="display:none"
 >@TempData["register"]</div>
-    
 }
+
+
+@if (!string.IsNullOrWhiteSpace((string)TempData["empty basket"] ))
+{
+<div id="alert-message" style="display:none"
+>@TempData["empty basket"] </div>
+}
+
+
+
+ @if (!string.IsNullOrWhiteSpace((string)TempData["Order created!"] ))
+{
+<div id="alert-message" style="display:none"
+>@TempData["Order created!"]</div>
+}
+
   <section id="introduce" class="col-lg-12 col-sm-12 col-12">
             <div class="images">
 

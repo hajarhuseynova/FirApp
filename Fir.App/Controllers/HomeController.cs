@@ -49,15 +49,30 @@ namespace Fir.App.Controllers
                     List<BasketViewModel> viewModels= JsonConvert.DeserializeObject<List<BasketViewModel>>(jsonBasket);
                     foreach(var model in viewModels)
                     {
-                        BasketItem basketItem = new BasketItem
+                        BasketItem basketItem = default;
+                        if (basket.basketItems != null)
                         {
-                            Basket = basket,
-                            CreatedDate = DateTime.Now,
-                            ProductCount=model.Count,
-                            ProductId=model.ProductId
-                        };
-                        await _context.BasketItems.AddAsync(basketItem);
+                            basketItem= basket.basketItems.FirstOrDefault(x=>x.ProductId==model.ProductId);
+                        }
+                        if (basketItem == null)
+                        {
+
+                            basketItem = new BasketItem
+                            {
+                                Basket = basket,
+                                CreatedDate = DateTime.Now,
+                                ProductCount = model.Count,
+                                ProductId = model.ProductId
+                            };
+                            await _context.BasketItems.AddAsync(basketItem);
+
+                        }
+                        else
+                        {
+                            basketItem.ProductCount++;
+                        }
                     }
+                   
                     await _context.SaveChangesAsync();
                     Response.Cookies.Delete("basket");
 

@@ -58,8 +58,12 @@
             fetch(href)
                 .then(x => x.json())
                 .then(x => {
-                    listProducts.innerHTML=""
-                    x.forEach(basket => {
+                 if(x.status==200){
+                     fetch("/product/getallbaskets")
+                     .then(res=>res.json())
+                     .then(b=>{
+                            listProducts.innerHTML=""
+                    b.forEach(basket => {
                         TotalCount++;
                         TotalPrice += basket.price*basket.count;
                             let basketView=`
@@ -92,6 +96,7 @@
                     totalCountElement.innerHTML = TotalCount;
                     totalPriceElement.innerHTML = TotalPrice;
                     bagCount.innerHTML = totalCount;
+                    console.log(totalCount)
                     bagTotalPrice.innerHTML = totalPrice;
 
 
@@ -112,6 +117,8 @@
                         title: `Added to basket  successfully`
                     })
 
+                     })
+                 }
 
                 })
         })

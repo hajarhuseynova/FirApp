@@ -47,16 +47,20 @@ namespace Fir.App.Controllers
             return View(productViewModel);
         }
 
-        public async Task<IActionResult> AddBasket(int id)
+        public async Task<IActionResult> AddBasket(int id,int? count)
         {
-            await _basketService.AddBasket(id);
+            await _basketService.AddBasket(id,count);
+            return Json(new {status=200});
+        }
+        public async Task<IActionResult> GetAllBaskets()
+        {
             return Json(await _basketService.GetAllBaskets());
         }
 
         public async Task<IActionResult> RemoveBasket(int id)
         {
             await _basketService.Remove(id);
-            return RedirectToAction("index", "home");
+            return Redirect(Request.Headers["Referer"].ToString());
         }
     }
 }

@@ -51,12 +51,12 @@
                                 <p> @Model.Product.Description</p>
                             </div>
                             <div class="button">
-                                <input type="text" placeholder="Quantity">
+                                <input id="inputbasketcount" type="number" placeholder="Quantity">
                                 <div class="counter">
                                     <i class="fas fa-chevron-left minus"></i><span class="counting">0</span><i
                                         class="fas fa-chevron-right plus"></i>
                                 </div>
-                                <button type="button">ADD TO CART <span></span></button>
+                                <a class="addbasketdetail" asp-controller="product" asp-action="addbasket" asp-route-id="@Model.Product.Id" style="background-color:black; color:white; text-decoration:none; padding:12px" type="button">ADD TO CART <span></span></a>
                             </div>
                             <div class="details">
                                 <span>SKU: <a href="">@Model.Product.Id</a></span>
@@ -189,7 +189,84 @@
     </main>
 
     @section Js{
+        <script>
+            const addbasketdetail=document.querySelector(".addbasketdetail");
+            const inputbasketcount=document.getElementById("inputbasketcount")
+            console.log(inputbasketcount)
+     addbasketdetail.addEventListener("click", (e) => {
+            e.preventDefault();
+            let href = addbasketdetail.getAttribute("href");
+            href=href+`?count=${inputbasketcount.value}`
+            let TotalPrice = 0;
+            let TotalCount = 0;
+            fetch(href)
+                .then(x => x.json())
+                .then(x => {
+                 if(x.status==200){
+                     fetch("/product/getallbaskets")
+                     .then(res=>res.json())
+                     .then(b=>{
+                            listProducts.innerHTML=""
+                    b.forEach(basket => {
+                        TotalCount++;
+                        TotalPrice += basket.price*basket.count;
+                            let basketView=`
+                                        <div class="product">
+                                            <div class="image">
+                                                <img src="/assets/images/${basket.image}">
+                                            </div>
+                                            <div>
+                                                <p class="product-name">${basket.name}</p>
+                                                <p>
+                                                    <span class="product-count">
+                                                       ${basket.count}
+                                                    </span>
+                                                    X
+                                                    <span class="product-price">
+                                                        ${basket.price}
+                                                    </span>
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <div>
+                                                    <a href="/product/RemoveBasket/${basket.productId}" class="btn-product-delete" data-id="">x</a>
+                                                </div>
+                                            </div>
 
+                                        </div>`
+                        listProducts.innerHTML += basketView;
+
+                    })
+                    totalCountElement.innerHTML = TotalCount;
+                    totalPriceElement.innerHTML = TotalPrice;
+                    bagCount.innerHTML = totalCount;
+                    console.log(totalCount)
+                    bagTotalPrice.innerHTML = totalPrice;
+
+
+                    const Toast = Swal.mixin({
+                        toast: true,
+                        position: 'top-end',
+                        showConfirmButton: false,
+                        timer: 3000,
+                        timerProgressBar: true,
+                        didOpen: (toast) => {
+                            toast.addEventListener('mouseenter', Swal.stopTimer)
+                            toast.addEventListener('mouseleave', Swal.resumeTimer)
+                        }
+                    })
+
+                    Toast.fire({
+                        icon: 'success',
+                        title: `Added to basket  successfully`
+                    })
+
+                     })
+                 }
+
+                })
+        })
+        </script>
     <script src="~/assets/js/orangeamarylls.js"></script>
 
 }

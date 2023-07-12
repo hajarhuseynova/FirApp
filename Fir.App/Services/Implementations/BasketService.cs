@@ -19,13 +19,13 @@ namespace Fir.App.Services.Implementations
             _httpContext = httpContext;
             _userManager = userManager;
         }
-        public async Task AddBasket(int id)
+        public async Task AddBasket(int id,int?count)
         {
             if (!await _context.Products.AnyAsync(x => x.Id == id))
             {
                 throw new Exception("Item is not found!");
             }
-            if (_httpContext.HttpContext.User.Identity.IsAuthenticated)
+            if (_httpContext.HttpContext.User.Identity.IsAuthenticated && _httpContext.HttpContext.User.IsInRole("User"))
             {
                 AppUser appUser = await _userManager.FindByNameAsync(_httpContext.HttpContext.User.Identity.Name);
                 Basket? basket = await _context.Baskets.
@@ -43,7 +43,7 @@ namespace Fir.App.Services.Implementations
                     {
                         Basket = basket,
                         ProductId = id,
-                        ProductCount = 1
+                        ProductCount = count??1
 
                     };
                     await _context.AddAsync(basketItem);
@@ -53,7 +53,7 @@ namespace Fir.App.Services.Implementations
                     BasketItem basketItem = basket.basketItems.FirstOrDefault(x => x.ProductId == id);
                     if (basketItem != null)
                     {
-                        basketItem.ProductCount++;
+                        basketItem.ProductCount+=count??+1;
                     }
                     else
                     {
@@ -61,7 +61,7 @@ namespace Fir.App.Services.Implementations
                         {
                             Basket = basket,
                             ProductId = id,
-                            ProductCount = 1
+                            ProductCount = count??1
 
                         };
                         await _context.AddAsync(basketItem);
@@ -80,7 +80,7 @@ namespace Fir.App.Services.Implementations
                 BasketViewModel basketViewModel = new BasketViewModel
                 {
                     ProductId = id,
-                    Count = 1
+                    Count = count??1
                 };
                 basketViewModels.Add(basketViewModel);
                 CookieJson = JsonConvert.SerializeObject(basketViewModels);
@@ -93,14 +93,14 @@ namespace Fir.App.Services.Implementations
                 BasketViewModel model = basketViewModels.FirstOrDefault(x => x.ProductId == id);
                 if (model != null)
                 {
-                    model.Count++;
+                    model.Count+=count??1 ;
                 }
                 else
                 {
                     BasketViewModel basketViewModel = new BasketViewModel
                     {
                         ProductId = id,
-                        Count = 1
+                        Count = count??1
                     };
                     basketViewModels.Add(basketViewModel);
                 }
@@ -112,7 +112,7 @@ namespace Fir.App.Services.Implementations
         public async Task<List<BasketItemViewModel>> GetAllBaskets() 
         {
           
-            if(_httpContext.HttpContext.User.Identity.IsAuthenticated)
+            if(_httpContext.HttpContext.User.Identity.IsAuthenticated && _httpContext.HttpContext.User.IsInRole("User"))
             {
                 AppUser appUser = await _userManager.FindByNameAsync(_httpContext.HttpContext.User.Identity.Name);
               
@@ -181,7 +181,7 @@ namespace Fir.App.Services.Implementations
         }
         public async Task Remove(int id)
         {
-            if (_httpContext.HttpContext.User.Identity.IsAuthenticated)
+            if (_httpContext.HttpContext.User.Identity.IsAuthenticated && _httpContext.HttpContext.User.IsInRole("User"))
             {
                 AppUser user = await _userManager.FindByNameAsync(_httpContext.HttpContext.User.Identity.Name);
                 Basket? basket = await _context.Baskets.Include(x => x.basketItems.Where(y => !y.IsDeleted))

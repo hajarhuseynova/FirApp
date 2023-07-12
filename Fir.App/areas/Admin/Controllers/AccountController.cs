@@ -20,7 +20,7 @@ namespace Fir.App.areas.Admin.Controllers
             _userManager = userManager;
             _signinManager = signinManager;
         }
-        [Authorize(Roles = "SuperAdmin")]
+        //[Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> AdminCreate()
         {
             AppUser SuperAdmin = new AppUser
@@ -28,7 +28,9 @@ namespace Fir.App.areas.Admin.Controllers
                 Name = "SuperAdmin",
                 Surname = "SuperAdmin",
                 Email = "SuperAdmin@Mail.ru",
-                UserName = "SuperAdmin"
+                UserName = "SuperAdmin",
+                EmailConfirmed=true
+
             };
             await _userManager.CreateAsync(SuperAdmin, "Admin123@");
             AppUser Admin = new AppUser
@@ -36,7 +38,8 @@ namespace Fir.App.areas.Admin.Controllers
                 Name = "Admin",
                 Surname = "Admin",
                 Email = "Admin@Mail.ru",
-                UserName = "Admin"
+                UserName = "Admin",
+                EmailConfirmed = true
             };
             await _userManager.CreateAsync(Admin, "Admin123@");
 
