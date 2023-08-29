@@ -54,3 +54,17 @@ C:\Users\99455\Desktop\FirApp\Fir.Core\obj\Debug\net6.0\refint\Fir.Core.dll
 C:\Users\99455\Desktop\FirApp\Fir.Core\obj\Debug\net6.0\Fir.Core.pdb
 C:\Users\99455\Desktop\FirApp\Fir.Core\obj\Debug\net6.0\Fir.Core.genruntimeconfig.cache
 C:\Users\99455\Desktop\FirApp\Fir.Core\obj\Debug\net6.0\ref\Fir.Core.dll
+C:\Users\99455\Desktop\code tasks\Backend\FirApp\Fir.Core\bin\Debug\net6.0\Fir.Core.deps.json
+C:\Users\99455\Desktop\code tasks\Backend\FirApp\Fir.Core\bin\Debug\net6.0\Fir.Core.runtimeconfig.json
+C:\Users\99455\Desktop\code tasks\Backend\FirApp\Fir.Core\bin\Debug\net6.0\Fir.Core.dll
+C:\Users\99455\Desktop\code tasks\Backend\FirApp\Fir.Core\bin\Debug\net6.0\Fir.Core.pdb
+C:\Users\99455\Desktop\code tasks\Backend\FirApp\Fir.Core\obj\Debug\net6.0\Fir.Core.csproj.AssemblyReference.cache
+C:\Users\99455\Desktop\code tasks\Backend\FirApp\Fir.Core\obj\Debug\net6.0\Fir.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\99455\Desktop\code tasks\Backend\FirApp\Fir.Core\obj\Debug\net6.0\Fir.Core.AssemblyInfoInputs.cache
+C:\Users\99455\Desktop\code tasks\Backend\FirApp\Fir.Core\obj\Debug\net6.0\Fir.Core.AssemblyInfo.cs
+C:\Users\99455\Desktop\code tasks\Backend\FirApp\Fir.Core\obj\Debug\net6.0\Fir.Core.csproj.CoreCompileInputs.cache
+C:\Users\99455\Desktop\code tasks\Backend\FirApp\Fir.Core\obj\Debug\net6.0\Fir.Core.dll
+C:\Users\99455\Desktop\code tasks\Backend\FirApp\Fir.Core\obj\Debug\net6.0\refint\Fir.Core.dll
+C:\Users\99455\Desktop\code tasks\Backend\FirApp\Fir.Core\obj\Debug\net6.0\Fir.Core.pdb
+C:\Users\99455\Desktop\code tasks\Backend\FirApp\Fir.Core\obj\Debug\net6.0\Fir.Core.genruntimeconfig.cache
+C:\Users\99455\Desktop\code tasks\Backend\FirApp\Fir.Core\obj\Debug\net6.0\ref\Fir.Core.dll
